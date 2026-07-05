@@ -457,7 +457,7 @@ if (isNewLogin) conn.isInit = true
 if (connection === 'close' && !existsSync(`./${global.authFile}/creds.json`)) {
 if (!printingNoConn) {
 printingNoConn = true
-await logCritical(chalk.bold.redBright('⚠️ SIN CONEXIÓN, BORRE LA CARPETA GataBotSession Y ESCANEA EL CÓDIGO QR ⚠️'))
+await logCritical(chalk.bold.redBright('⚠️ SIN CONEXIÓN, BORRE LA CARPETA JhanBotSession Y ESCANEA EL CÓDIGO QR ⚠️'))
 setTimeout(() => {
 printingNoConn = false
 }, 1500)
@@ -724,7 +724,7 @@ console.log(chalk.cyanBright(`[🔵] Sesiones no esenciales eliminadas de ${glob
 }
 
 async function purgeSessionSB() {
-const jadibtsDir = './GataJadiBot/'
+const jadibtsDir = './JhanJadiBot/'
 try {
 if (!existsSync(jadibtsDir)) return
 const directories = await readdir(jadibtsDir)
@@ -758,7 +758,7 @@ console.log(chalk.bold.red(lenguajeGB.smspurgeSessionSB3() + err))
 }
 
 async function purgeOldFiles() {
-const directories = ['./GataBotSession/', './GataJadiBot/']
+const directories = ['./JhanBotSession/', './GataJadiBot/']
 for (const dir of directories) {
 try {
 if (!fs.existsSync(dir)) {
