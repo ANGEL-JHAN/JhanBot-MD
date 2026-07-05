@@ -5,11 +5,11 @@ sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-rel
 sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
 sudo dnf clean all -y
 
-RUN git clone https://github.com/GataNina-Li/GataBot-MD
+RUN git clone https://github.com/ANGEL-JHAN/JhanBot-MD
 
-WORKDIR /root/GataBot-MD
+WORKDIR /root/JhanBot-MD
 
-COPY ./root/GataBot-MD
+COPY ./root/JhanBot-MD
 
 RUN yarn install
 
