@@ -304,7 +304,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let username = conn.getName(who)
 let taguser = '@' + m.sender.split('@s.whatsapp.net')[0]
-let pp = 'https://qu.ax/GBTY1'
+let pp = gataVidMenu
 let pareja = global.db.data.users[m.sender].pasangan
 const numberToEmoji = {0: '0️⃣', 1: '1️⃣', 2: '2️⃣', 3: '3️⃣', 4: '4️⃣', 5: '5️⃣', 6: '6️⃣', 7: '7️⃣', 8: '8️⃣', 9: '9️⃣'}
 let lvl = level
@@ -792,7 +792,7 @@ ${generateCommand(commandsConfig, usedPrefix).replace(/≡/g, '𖡡')}
 ┃☭│ ➤ _${usedPrefix}añadirkatacoins *@tag cantidad*_
 ◟ ══════════⊷❍
 `.trim()
-await conn.sendFile(m.chat, gataVidMenu, 'https://qu.ax/GBTY1', menu, fkontak, false, {
+await conn.sendFile(m.chat, gataVidMenu, 'img1', menu, fkontak, false, {
 contextInfo: {
 externalAdReply: {
 mediaUrl: null,
