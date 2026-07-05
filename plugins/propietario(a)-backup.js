@@ -17,7 +17,7 @@ let d = new Date()
 let date = d.toLocaleDateString('es', {day: 'numeric', month: 'long', year: 'numeric'})
 
 if (option === 1) {
-const path = conn.user.jid !== global.conn.user.jid ? `./GataJadiBot/${conn.user.jid.split`@`[0]}/creds.json` : './GataBotSession/creds.json'
+const path = conn.user.jid !== global.conn.user.jid ? `./GataJadiBot/${conn.user.jid.split`@`[0]}/creds.json` : './JhanBotSession/creds.json'
 if (!fs.existsSync(path)) return await m.reply('⚠️ El archivo *creds.json* no existe.')
 
 let creds = fs.readFileSync(path)
