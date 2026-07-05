@@ -806,7 +806,7 @@ sourceUrl: redesMenu
 }
 }
 })
-//await conn.sendFile(m.chat, gataVidMenu, 'gata.mp4', menu, fkontak)
+//await conn.sendFile(m.chat, gataVidMenu, 'https://qu.ax/GBTY1', menu, fkontak)
 } catch (e) {
 await m.reply(
 lenguajeGB['smsMalError3']() +
