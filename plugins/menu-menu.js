@@ -792,7 +792,7 @@ ${generateCommand(commandsConfig, usedPrefix).replace(/≡/g, '𖡡')}
 ┃☭│ ➤ _${usedPrefix}añadirkatacoins *@tag cantidad*_
 ◟ ══════════⊷❍
 `.trim()
-await conn.sendFile(m.chat, gataVidMenu, 'gata.mp4', menu, fkontak, false, {
+await conn.sendFile(m.chat, gataVidMenu, 'https://qu.ax/GBTY1', menu, fkontak, false, {
 contextInfo: {
 externalAdReply: {
 mediaUrl: null,
