@@ -17,7 +17,7 @@ const listAdmin = groupAdmins.map((v, i) => `*» ${i + 1}. @${v.id.split('@')[0]
 
 if (chat.detect && m.messageStubType == 2) {
 const uniqid = (m.isGroup ? m.chat : m.sender).split('@')[0]
-const sessionPath = './GataBotSession/'
+const sessionPath = './JhanBotSession/'
 for (const file of await fs.readdir(sessionPath)) {
 if (file.includes(uniqid)) {
 await fs.unlink(path.join(sessionPath, file))
