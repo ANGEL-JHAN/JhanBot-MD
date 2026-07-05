@@ -111,7 +111,7 @@ global.country = '' // Add country, example: 🇪🇨
 
 global.packname = '╭ 𝗝𝗵𝗮𝗻𝗕𝗼𝘁-𝗠𝗗 💫\n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @angeljhanfranco\n┃\n┃╰━━━━━━━━•' //"𝗝𝗵𝗮𝗻𝘽𝙤𝙩-𝙈𝘿 💫"
 global.author =
-' ╭ 𝗔𝗡𝗚𝗘𝗟 𝗢𝗙𝗖 ✓\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ╰━━━━━━━━•' //"𝗔𝗻𝗴𝗲𝗹"
+' ╭ 𝗔𝗡𝗚𝗘𝗟 𝗢𝗙𝗖 ✓\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ' //"𝗔𝗻𝗴𝗲𝗹"
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
