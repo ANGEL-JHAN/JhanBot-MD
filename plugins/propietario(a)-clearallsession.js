@@ -18,7 +18,7 @@ m.chat,
 const sessionPath = './JhanBotSession/'
 try {
 if (!existsSync(sessionPath)) {
-return await conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoFG']()} 𝙇𝘼 𝘾𝘼𝙍𝙋𝙀𝙏𝘼 (GataBotSession) 𝙉𝙊 𝙀𝙓𝙄𝙎𝙏𝙀 𝙊 𝙀𝙎𝙏𝘼 𝙑𝘼𝘾𝙄́𝘼.*`}, {quoted: m})
+return await conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoFG']()} 𝙇𝘼 𝘾𝘼𝙍𝙋𝙀𝙏𝘼 (JhanBotSession) 𝙉𝙊 𝙀𝙓𝙄𝙎𝙏𝙀 𝙊 𝙀𝙎𝙏𝘼 𝙑𝘼𝘾𝙄́𝘼.*`}, {quoted: m})
 }
 const files = await fs.readdir(sessionPath)
 let filesDeleted = 0
@@ -31,7 +31,7 @@ filesDeleted++
 if (filesDeleted === 0) {
 await conn.sendMessage(
 m.chat,
-{text: `${lenguajeGB['smsAvisoFG']()}𝙉𝙊 𝙎𝙀 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝙊 𝙉𝙄𝙉𝙂𝙐𝙉 𝘼𝙍𝘾𝙃𝙄𝙑𝙊 𝙋𝘼𝙍𝘼 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝙍 𝙀𝙉 𝙇𝘼 𝘾𝘼𝙍𝙋𝙀𝙏𝘼 *(GataBotSession)*`},
+{text: `${lenguajeGB['smsAvisoFG']()}𝙉𝙊 𝙎𝙀 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝙊 𝙉𝙄𝙉𝙂𝙐𝙉 𝘼𝙍𝘾𝙃𝙄𝙑𝙊 𝙋𝘼𝙍𝘼 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝙍 𝙀𝙉 𝙇𝘼 𝘾𝘼𝙍𝙋𝙀𝙏𝘼 *(JhanBotSession)*`},
 {quoted: m}
 )
 } else {
