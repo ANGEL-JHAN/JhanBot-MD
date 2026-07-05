@@ -109,7 +109,7 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = '╭ 𝗝𝗵𝗮𝗻𝗕𝗼𝘁-𝗠𝗗 💫\n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @angeljhanfranco\n┃\n┃╰━━━━━━━━•' //"𝗝𝗵𝗮𝗻𝘽𝙤𝙩-𝙈𝘿 💫"
+global.packname = '╭ 𝗝𝗵𝗮𝗻𝗕𝗼𝘁-𝗠𝗗 💫\n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @angeljhanfranco\n┃\n┃' //"𝗝𝗵𝗮𝗻𝘽𝙤𝙩-𝙈𝘿 💫"
 global.author =
 ' ╭ 𝗔𝗡𝗚𝗘𝗟 𝗢𝗙𝗖 ✓\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ' //"𝗔𝗻𝗴𝗲𝗹"
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
