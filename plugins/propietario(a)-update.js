@@ -20,7 +20,7 @@ if (
 line.includes('.npm/') ||
 line.includes('.cache/') ||
 line.includes('tmp/') ||
-line.includes('GataBotSession/') ||
+line.includes('JhanBotSession/') ||
 line.includes('npm-debug.log')
 ) {
 return null
