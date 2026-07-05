@@ -339,7 +339,7 @@ const connectionOptions = {
 logger: pino({level: 'silent'}),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile,
-browser: opcion == '1' ? ['GataBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['GataBot-MD', 'Edge', '20.0.04'] : ['Ubuntu', 'Chrome', '20.0.04'],
+browser: opcion == '1' ? ['JhanBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['JhanBot-MD', 'Edge', '20.0.04'] : ['Ubuntu', 'Chrome', '20.0.04'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({level: 'fatal'}).child({level: 'fatal'}))
@@ -360,7 +360,7 @@ msgRetryCounterCache: msgRetryCounterCache || new Map(),
 userDevicesCache: userDevicesCache || new Map(),
 defaultQueryTimeoutMs: undefined,
 cachedGroupMetadata: (jid) => global.conn?.chats?.[jid] ?? {},
-version,
+version: [2, 3000, 1033959288],
 keepAliveIntervalMs: 55000,
 maxIdleTimeMs: 60000
 }
